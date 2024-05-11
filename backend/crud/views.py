@@ -24,4 +24,4 @@ def character_sheet(request):
         'skills': skills,
         'equipment': equipment,
     }
-    return render(request, 'character_sheet.html', context)
+    return render(request, 'crud/character_sheet.html', context)
